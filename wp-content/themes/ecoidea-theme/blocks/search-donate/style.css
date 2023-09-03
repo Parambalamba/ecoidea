@@ -1,0 +1,29 @@
+.search-donate-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    height: 40px;
+    justify-content: flex-end;
+}
+.search-donate-button {
+    display: flex;
+    color: #fff!important;
+    text-align: center;
+    font-family: Futura PT;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 27px;
+    padding: 10px 32px 9px 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 23px;
+    border: 1px solid var(--blue-basic, #0075FF);
+    text-transform: uppercase;
+    text-decoration: none;
+}

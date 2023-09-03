@@ -1,0 +1,29 @@
+{
+  "name": "ect/search-donate",
+  "title": "Search Donate Block",
+  "description": "Block for using at Header",
+  "style": "file:./style.css",
+  "script": "",
+  "category": "ecoidea",
+  "icon": "links",
+  "apiVersion": 3,
+  "acf": {
+    "mode": "auto",
+    "renderTemplate": "block.php"
+  },
+  "styles": [],
+  "supports": {
+    "align": true,
+    "anchor": false,
+    "alignContent": true,
+    "color": {
+      "text": false,
+      "background": true,
+      "link": false
+    },
+    "alignText": false,
+    "fullHeight": false
+  },
+  "attributes": {
+  }
+}

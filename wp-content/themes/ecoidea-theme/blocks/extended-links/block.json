@@ -1,0 +1,29 @@
+{
+  "name": "ect/extended-links",
+  "title": "Extended Links Block",
+  "description": "Block with links to external sites",
+  "style": "file:./style.css",
+  "script": "",
+  "category": "ecoidea",
+  "icon": "links",
+  "apiVersion": 3,
+  "acf": {
+	"mode": "auto",
+	"renderTemplate": "block.php"
+  },
+  "styles": [],
+  "supports": {
+	"align": true,
+	"anchor": true,
+	"alignContent": true,
+	"color": {
+	  "text": true,
+	  "background": true,
+	  "link": true
+	},
+	"alignText": false,
+	"fullHeight": false
+  },
+  "attributes": {
+  }
+}

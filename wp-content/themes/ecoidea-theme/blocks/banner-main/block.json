@@ -1,0 +1,34 @@
+{
+	"name": "ect/banner-main",
+	"title": "Main Banner Block",
+	"description": "Block with Slider and Card",
+	"style": [
+		"file:./style.css",
+	  	"file:./slick.css"
+	],
+	"script": "file:./script.js",
+	"viewScript": ["file:./slick.min.js", "ecoidea-slick-slider"],
+	"category": "ecoidea",
+	"icon": "links",
+	"apiVersion": 3,
+	"acf": {
+		"mode": "auto",
+		"renderTemplate": "block.php"
+	},
+	"styles": [],
+	"supports": {
+		"align": true,
+		"anchor": true,
+		"alignContent": true,
+		"color": {
+			"text": true,
+			"background": true,
+			"link": true
+		},
+		"alignText": false,
+		"fullHeight": false
+	},
+	"attributes": {
+
+	}
+}
