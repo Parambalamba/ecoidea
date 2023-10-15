@@ -1,0 +1,103 @@
+.wp-block-banner-main {
+    display: flex;
+    justify-content: center;
+}
+.banner-main-block-wrapper {
+    display: flex;
+    column-gap: 40px;
+    justify-content: space-between;
+    padding: 60px 0;
+    position: relative;
+}
+
+.banner-main-slider-card {
+    display: flex;
+    align-items: stretch;
+}
+.banner-main-slider-dots {
+    position: absolute;
+    bottom: 180px;
+}
+
+.banner-main-card {
+    max-width: 360px;
+    width: 100%;
+    height: 480px;
+    border-radius: 24px 0px;
+    background-color: #0075FF;
+    padding: 20px 30px 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner-main-slider-card-top {
+    padding: 20px 30px 0 30px;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    gap: 8px;
+    font-family: Futura PT;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+}
+
+svg {
+    height: 28px;
+}
+
+.banner-main-slider-card-top > svg:last-of-type,
+.banner-main-card-top > svg:last-of-type {
+    display: flex;
+    flex: 1 0 0;
+    align-self: stretch;
+
+}
+
+.banner-main-slider-card-bottom {
+    padding: 0 30px 30px 30px;
+    font-family: Futura PT;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    color: #fff;
+}
+
+.banner-main-card-top {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    gap: 8px;
+    font-family: Futura PT;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    color: #fff;
+}
+
+.banner-main-card-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.banner-main-card-bottom-title {
+    color: #FFF;
+    font-family: Futura PT;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.banner-main-card-bottom-desc {
+    color: #FFF;
+    font-family: Futura PT;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}

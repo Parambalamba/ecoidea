@@ -1,7 +1,7 @@
 <?php
 return [
-	'dependencies' => [
-		'jQuery',
-		'ecoidea-slick-script'
+	"dependencies" => [
+		"jQuery",
+		"ecoidea-slick-slider"
 	],
 ];

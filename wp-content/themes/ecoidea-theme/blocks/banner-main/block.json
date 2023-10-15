@@ -4,10 +4,13 @@
 	"description": "Block with Slider and Card",
 	"style": [
 		"file:./style.css",
-	  	"file:./slick.css"
+	  	"file:./assets/css/slick.css"
 	],
-	"script": "file:./script.js",
-	"viewScript": ["file:./slick.min.js", "ecoidea-slick-slider"],
+	"script": [
+	  "jQuery",
+	  "ecoidea-banner-main",
+	  "ecoidea-slick-slider"
+	],
 	"category": "ecoidea",
 	"icon": "links",
 	"apiVersion": 3,
@@ -29,6 +32,22 @@
 		"fullHeight": false
 	},
 	"attributes": {
-
+		"backgroundColor": {
+		  "type": "string",
+		  "default": "--wp--preset--color-base"
+		},
+		"textColor": {
+		  "type": "string",
+		  "default": "#af4343"
+		},
+		"style": {
+		  "type": "object",
+		  "default": {
+			"color": {
+			  "background": "#cde3fa",
+			  "text": "#333333"
+			}
+		  }
+		}
 	}
 }

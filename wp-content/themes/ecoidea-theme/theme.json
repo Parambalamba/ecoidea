@@ -28,6 +28,8 @@
 	"settings": {
 		"appearanceTools": true,
 		"color": {
+			"background": true,
+			"custom": true,
 			"palette": [
 				{
 					"color": "#ffffff",
@@ -600,7 +602,6 @@
 			}
 		},
 		"color": {
-			"background": "var(--wp--preset--color--base)",
 			"text": "var(--wp--preset--color--contrast)"
 		},
 		"elements": {
@@ -679,7 +680,7 @@
 			},
 			"link": {
 				"color": {
-					"text": "var(--wp--preset--color--contrast)"
+					"text": "var(--wp--preset--color-base)"
 				},
 				":hover": {
 					"typography": {
@@ -700,7 +701,7 @@
 					}
 				},
 				"typography": {
-					"textDecoration": "underline"
+					"textDecoration": "none"
 				}
 			}
 		},

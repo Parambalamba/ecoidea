@@ -61,3 +61,16 @@ function ecoidea_enuqueue_scripts() {
 	wp_enqueue_script( "jquery" );
 }
 add_action( 'wp_enqueue_scripts', 'ecoidea_enuqueue_scripts' );
+
+/**
+ * Register nesseccary scripts for acf blocks
+ */
+function ecoidea_register_scripts() {
+	wp_register_script( 'ecoidea-slick-slider', get_template_directory_uri() . '/assets/js/slick.min.js', [ 'jquery' ] );
+	wp_register_script( 'ecoidea-banner-main', get_template_directory_uri() . '/blocks/banner-main/script.js', [], false, [
+		'in_footer' => true,
+		'strategy'  => 'defer'
+	] );
+
+}
+add_action( 'init', 'ecoidea_register_scripts' );

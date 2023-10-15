@@ -2,7 +2,8 @@
 .slick-slider
 {
     position: relative;
-
+    max-width: 760px;
+    height: 480px;
     display: block;
     box-sizing: border-box;
 
@@ -53,7 +54,7 @@
     position: relative;
     top: 0;
     left: 0;
-
+    height: 480px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -100,7 +101,10 @@
 }
 .slick-initialized .slick-slide
 {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 .slick-loading .slick-slide
 {
@@ -116,4 +120,35 @@
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+.slick-dots  {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    padding-left: 30px;
+}
+
+.slick-dots li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-dots button {
+    width: 64px;
+    height: 4px;
+    flex-shrink: 0;
+    background: #ffffff;
+    border: none;
+    opacity: 0.5;
+    color: transparent;
+    cursor: pointer;
+}
+
+
+.slick-dots li[class="slick-active"] button {
+    background: #0075FF;
+    opacity: 1;
 }
