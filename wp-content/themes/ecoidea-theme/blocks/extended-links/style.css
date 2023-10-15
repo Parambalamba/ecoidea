@@ -1,0 +1,32 @@
+.extended-link-block {
+    width: 100%;
+    opacity: 0.9;
+    height: 48px;
+    background-color: #001433;
+    display: flex;
+    justify-content: center;
+}
+.extended-links-wrapper {
+    width: 100%;
+    max-width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 45px;
+}
+.extended-link-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10px;
+}
+.extended-link-item > a {
+    color: #fff;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Futura PT;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}

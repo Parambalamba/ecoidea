@@ -1,0 +1,4 @@
+.wp-block-columns:where(.header-columns) {
+    width: 100%;
+    align-items: center!important;
+}

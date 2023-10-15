@@ -1,0 +1,9 @@
+.wp-block-image:where(.image-link) {
+    margin-bottom: 0;
+    cursor: pointer;
+    height: 24px;
+}
+
+.wp-block-image:where(.image-link) > img {
+    vertical-align: baseline;
+}

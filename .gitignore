@@ -17,13 +17,17 @@
 /wp-*.php
 /xmlrpc.php
 
+
 # Configuration
 wp-config.php
+/.idea/
 
 # Example themes
 /wp-content/themes/twenty*/
 
 # Example plugin
+/wp-content/plugins/wordpress-seo
+/wp-content/plugins/akismet
 /wp-content/plugins/hello.php
 
 # Uploads

@@ -1,0 +1,53 @@
+{
+	"name": "ect/banner-main",
+	"title": "Main Banner Block",
+	"description": "Block with Slider and Card",
+	"style": [
+		"file:./style.css",
+	  	"file:./assets/css/slick.css"
+	],
+	"script": [
+	  "jQuery",
+	  "ecoidea-banner-main",
+	  "ecoidea-slick-slider"
+	],
+	"category": "ecoidea",
+	"icon": "links",
+	"apiVersion": 3,
+	"acf": {
+		"mode": "auto",
+		"renderTemplate": "block.php"
+	},
+	"styles": [],
+	"supports": {
+		"align": true,
+		"anchor": true,
+		"alignContent": true,
+		"color": {
+			"text": true,
+			"background": true,
+			"link": true
+		},
+		"alignText": false,
+		"fullHeight": false
+	},
+	"attributes": {
+		"backgroundColor": {
+		  "type": "string",
+		  "default": "--wp--preset--color-base"
+		},
+		"textColor": {
+		  "type": "string",
+		  "default": "#af4343"
+		},
+		"style": {
+		  "type": "object",
+		  "default": {
+			"color": {
+			  "background": "#cde3fa",
+			  "text": "#333333"
+			}
+		  }
+		}
+	}
+}
